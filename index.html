@@ -159,11 +159,39 @@
         explanation: "When popcorn pops, some water inside turns to steam and escapes. This makes the popcorn a tiny bit lighter."
     },
     {
+        "question": "If you cut a metal bar in half, what happens to the density of each piece?",
+        "type": "multipleChoice",
+        "options": ["It increases", "It decreases", "It stays the same"],
+        "correctAnswer": "It stays the same",
+        "explanation": "Cutting the bar in half doesn’t change its density. Each piece has the same density as the original bar."
+    },
+    {
+        "question": "A piece of ice has a volume of 10 cm³ and a mass of 9 grams. What is its density?",
+        "type": "calculation",
+        "correctAnswer": 0.9,
+        "unit": "g/cm³",
+        "explanation": "Density is calculated by dividing mass by volume. Here, 9 g ÷ 10 cm³ = 0.9 g/cm³."
+    },
+    {
+        "question": "If you have two objects of the same mass, one small and one large, which one has a higher density?",
+        "type": "multipleChoice",
+        "options": ["Smaller object", "Larger object", "They have the same density"],
+        "correctAnswer": "Smaller object",
+        "explanation": "A smaller object with the same mass as a larger object is more compact, so it has a higher density."
+    },
+    {
         question: "Which has more density: a rock or a marshmallow of the same size?",
         type: "multipleChoice",
         options: ["Rock", "Marshmallow", "They have the same density"],
         correctAnswer: "Rock",
         explanation: "A rock is much heavier than a marshmallow of the same size, so it has a higher density."
+    },
+    {
+        "question": "If you have a piece of clay and mold it into a different shape, what happens to its density?",
+        "type": "multipleChoice",
+        "options": ["Increases", "Decreases", "Stays the same"],
+        "correctAnswer": "Stays the same",
+        "explanation": "Changing the shape of clay doesn’t change its mass or volume, so its density remains the same."
     },
     {
         question: "If you have two same-sized boxes, one filled with feathers and one with books, which would be heavier?",
@@ -180,18 +208,11 @@
         explanation: "When you squish something into a smaller space, its density increases because you're fitting the same amount of stuff into less space."
     },
     {
-        question: "Which of these would float in water?",
-        type: "multipleChoice",
-        options: ["A rock", "An apple", "A penny", "A metal paperclip"],
-        correctAnswer: "An apple",
-        explanation: "An apple is less dense than water, so it floats. The other items are denser than water and would sink."
-    },
-    {
-        question: "If you have a cup of water and a cup of milk, which one has more mass?",
-        type: "multipleChoice",
-        options: ["Water", "Milk", "They have the same mass"],
-        correctAnswer: "Milk",
-        explanation: "Milk is slightly denser than water, so a cup of milk would have a bit more mass than a cup of water."
+    "question": "What happens to the density of a gas when you compress it into a smaller space?",
+    "type": "multipleChoice",
+    "options": ["Increases", "Decreases", "Stays the same"],
+    "correctAnswer": "Increases",
+    "explanation": "Compressing a gas into a smaller space increases its density because the same amount of gas now occupies less volume."
     },
     {
         question: "What happens to the volume of a balloon when you blow it up?",
@@ -199,20 +220,6 @@
         options: ["Increases", "Decreases", "Stays the same"],
         correctAnswer: "Increases",
         explanation: "When you blow up a balloon, you're adding air to it, which makes it bigger. This means its volume increases."
-    },
-    {
-        question: "If you have two balls of the same size, one made of plastic and one made of metal, which would have more mass?",
-        type: "multipleChoice",
-        options: ["Plastic ball", "Metal ball", "They would have the same mass"],
-        correctAnswer: "Metal ball",
-        explanation: "Metal is denser than plastic, so a metal ball would have more mass than a plastic ball of the same size."
-    },
-    {
-        question: "What happens to the density of ice when it melts into water?",
-        type: "multipleChoice",
-        options: ["Increases", "Decreases", "Stays the same"],
-        correctAnswer: "Increases",
-        explanation: "Ice is less dense than water, which is why it floats. When it melts, it becomes slightly denser."
     },
     {
         question: "If you mix sand and water in a jar, which will sink to the bottom?",
@@ -236,13 +243,6 @@
         explanation: "To find mass, multiply density by volume. Here, 1.5 g/mL × 100 mL = 150g."
     },
     {
-        question: "A cube has a side length of 3 cm. What is its volume?",
-        type: "calculation",
-        correctAnswer: 27,
-        unit: "cm³",
-        explanation: "The volume of a cube is side length cubed. So, 3 cm × 3 cm × 3 cm = 27 cm³."
-    },
-    {
         question: "If you stack two identical blocks, how does the total volume change?",
         type: "multipleChoice",
         options: ["It doubles", "It stays the same", "It triples", "It halves"],
@@ -262,20 +262,6 @@
         options: ["Increases", "Decreases", "Stays the same"],
         correctAnswer: "Decreases",
         explanation: "When you drink half the water, you're removing mass from the bottle. Less water means less mass overall."
-    },
-    {
-        question: "Which would take up more space: a pound of feathers or a pound of bricks?",
-        type: "multipleChoice",
-        options: ["Feathers", "Bricks", "They would take up the same space"],
-        correctAnswer: "Feathers",
-        explanation: "Even though they weigh the same, feathers are less dense than bricks. This means a pound of feathers would take up much more space (have a larger volume) than a pound of bricks."
-    },
-    {
-        question: "If you put a small rock in a full glass of water, what will happen to the water level?",
-        type: "multipleChoice",
-        options: ["It will rise", "It will fall", "It will stay the same"],
-        correctAnswer: "It will rise",
-        explanation: "The rock displaces (pushes aside) some of the water, causing the water level to rise. This is related to the rock's volume."
     },
     {
         question: "A container holds 500 mL of juice. If you pour out 150 mL, how much is left?",
@@ -299,27 +285,6 @@
         explanation: "When you squeeze a sponge, you're compressing it, which reduces its size. This means its volume decreases."
     },
     {
-        question: "If you have a cup of water and add a handful of salt, stirring until it dissolves, what happens to the volume of liquid?",
-        type: "multipleChoice",
-        options: ["Increases slightly", "Decreases slightly", "Stays exactly the same"],
-        correctAnswer: "Increases slightly",
-        explanation: "When salt dissolves in water, it takes up space between the water molecules, causing a slight increase in the total volume."
-    },
-    {
-        question: "Which would sink faster in water: a marble or a bowling ball?",
-        type: "multipleChoice",
-        options: ["Marble", "Bowling ball", "They would sink at the same rate"],
-        correctAnswer: "Bowling ball",
-        explanation: "While both are denser than water and will sink, the bowling ball has more mass and will experience a stronger gravitational pull, causing it to sink faster."
-    },
-    {
-        question: "If you have a balloon filled with helium and another of the same size filled with air, which one will rise to the ceiling?",
-        type: "multipleChoice",
-        options: ["Helium balloon", "Air balloon", "Both will rise", "Neither will rise"],
-        correctAnswer: "Helium balloon",
-        explanation: "Helium is less dense than air, so a helium-filled balloon will float upwards in air."
-    },
-    {
         question: "A recipe calls for 250 mL of milk. If your measuring cup only shows cups, and 1 cup is 240 mL, how many cups of milk do you need?",
         type: "calculation",
         correctAnswer: 1.04,
@@ -334,25 +299,11 @@
         explanation: "Stacking three identical boxes will make the total height three times as tall as one box."
     },
     {
-        question: "What happens to the density of a gas when you cool it (assuming the container doesn't change size)?",
-        type: "multipleChoice",
-        options: ["Increases", "Decreases", "Stays the same"],
-        correctAnswer: "Increases",
-        explanation: "When you cool a gas, its molecules slow down and take up less space, fitting more molecules in the same volume. This increases its density."
-    },
-    {
         question: "A small box measures 10 cm long, 5 cm wide, and 2 cm tall. What is its volume?",
         type: "calculation",
         correctAnswer: 100,
         unit: "cm³",
         explanation: "To find the volume of a box, multiply length × width × height. Here, 10 cm × 5 cm × 2 cm = 100 cm³."
-    },
-    {
-        question: "If you have a full 1-liter bottle of water and pour out 250 mL, what fraction of the water is left?",
-        type: "multipleChoice",
-        options: ["1/4", "1/2", "3/4", "1/3"],
-        correctAnswer: "3/4",
-        explanation: "1 liter is 1000 mL. If you pour out 250 mL, you're left with 750 mL, which is 3/4 of the original amount."
     },
     {
         question: "A cube of sugar weighs 4 grams and has a volume of 2.5 cm³. What is its density?",
@@ -362,46 +313,11 @@
         explanation: "Density is calculated by dividing mass by volume. Here, 4 g ÷ 2.5 cm³ = 1.6 g/cm³."
     },
     {
-        question: "What happens to the density of water when it freezes into ice?",
-        type: "multipleChoice",
-        options: ["Increases", "Decreases", "Stays the same"],
-        correctAnswer: "Decreases",
-        explanation: "When water freezes, it expands and becomes less dense. This is why ice floats in water."
-    },
-    {
-        question: "Which has a higher density: honey or vegetable oil?",
-        type: "multipleChoice",
-        options: ["Honey", "Vegetable oil", "They have the same density"],
-        correctAnswer: "Honey",
-        explanation: "Honey is denser than vegetable oil. If you put them in the same container, honey would sink to the bottom."
-    },
-    {
-        question: "What happens to the density of air as you go higher in altitude?",
-        type: "multipleChoice",
-        options: ["Increases", "Decreases", "Stays the same"],
-        correctAnswer: "Decreases",
-        explanation: "As you go higher in altitude, the air becomes less dense because there's less air pressure."
-    },
-    {
-        question: "If you have two balloons of the same size, one filled with helium and one with air, which would rise to the ceiling?",
-        type: "multipleChoice",
-        options: ["Helium balloon", "Air balloon", "Both would rise", "Neither would rise"],
-        correctAnswer: "Helium balloon",
-        explanation: "Helium is less dense than air, so a helium-filled balloon will float upwards in air."
-    },
-    {
         question: "What happens to the density of a sponge when you squeeze it?",
         type: "multipleChoice",
         options: ["Increases", "Decreases", "Stays the same"],
         correctAnswer: "Increases",
         explanation: "When you squeeze a sponge, you're reducing its volume without changing its mass, which increases its density."
-    },
-    {
-        question: "A cube has a side length of 4 cm. What is its volume?",
-        type: "calculation",
-        correctAnswer: 64,
-        unit: "cm³",
-        explanation: "The volume of a cube is side length cubed. So, 4 cm × 4 cm × 4 cm = 64 cm³."
     },
     {
         question: "If an object has a mass of 30 grams and a volume of 10 cm³, what is its density?",
